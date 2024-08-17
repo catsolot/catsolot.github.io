@@ -56,6 +56,13 @@
   ],
   "publications": [
     {
+      "name": "Eliminating eBPF Tracing Overhead on Untraced Processes",
+      "publisher": "Proceedings of the ACM SIGCOMM 2024 Workshop on EBPF and Kernel Extensions",
+      "releaseDate": "2024",
+      "url": "https://doi.org/10.1145/3672197.3673431",
+      "summary": "Attaching tracing eBPF programs to hookpoints causes them to run for any process that triggers the hookpoint. This results in overhead for processes we do not want to trace. We propose a system that uses virtual memory mappings to provide each process its own view of kernel hookpoints, allowing for no overhead on untraced processes"
+    },
+    {
       "name": "Enabling eBPF on Embedded Systems Through Decoupled Verification",
       "publisher": "Proceedings of the 1st Workshop on EBPF and Kernel Extensions",
       "releaseDate": "2023-09-10",
