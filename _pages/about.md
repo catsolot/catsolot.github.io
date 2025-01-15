@@ -23,7 +23,7 @@ eBPF has been applied to increase system observability and tracing, as well as t
 stack.
 
 I have been an avid Linux user and enthusiast since my older brother installed Arch Linux on my laptop in elementary school.
-Currently, I am the President of the [Linux and Unix Users Group at Virginia Tech](https://vtluug.org).
+I was the President of the [Linux and Unix Users Group at Virginia Tech](https://vtluug.org) from Fall 2023 through Fall 2024.
 I believe that high quality free and open source software is absolutely essential to the modern tech landscape, and, as an extension, modern society.
 
 Outside of technology, I am an avid musician, and I love spending time outdoors.
