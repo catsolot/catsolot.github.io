@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am first-year graduate student at Virginia Tech studying safe kernel extensions, primarily focusing on extending eBPF through new kernel mechanisms.
+I am second-year PhD student at Virginia Tech studying safe kernel extensions, primarily focusing on extending eBPF through new kernel mechanisms.
 [eBPF](https://ebpf.io/) provides a mechanism to safely extend running kernels, providing a unique way to dynamically change operating system behavior.
 eBPF has been applied to increase system observability and tracing, as well as to improve networking performance by bypassing the existing kernel networking
 stack.
