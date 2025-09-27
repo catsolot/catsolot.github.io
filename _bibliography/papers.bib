@@ -37,6 +37,42 @@
     keywords = {kernel extension, verification as a service, eBPF},
     location = {New York, NY, USA},
     series = {eBPF '23},
-    selected = {true}
+    selected = {false}
 }
 
+@inproceedings{10.5555/3768039.3768059,
+    author = {Jia, Jinghao and Qin, Ruowen and Craun, Milo and Lukiyanov, Egor and Bansal, Ayush and Phan, Minh and Le, Michael V. and Franke, Hubertus and Jamjoom, Hani and Xu, Tianyin and Williams, Dan},
+    title = {Rex: closing the language-verifier gap with safe and usable kernel extensions},
+    year = {2025},
+    isbn = {978-1-939133-48-9},
+    publisher = {USENIX Association},
+    address = {USA},
+    abstract = {Safe kernel extensions have gained significant traction, evolving from simple packet filters to large, complex programs that customize storage, networking, and scheduling. Existing kernel extension mechanisms like eBPF rely on in-kernel verifiers to ensure safety of kernel extensions by static verification using symbolic execution. We identify significant usability issues--safe extensions being rejected by the verifier--due to the language-verifier gap, a mismatch between developers' expectation of program safety provided by a contract with the programming language, and the verifier's expectation.We present Rex, a new kernel extension framework that closes the language-verifier gap and improves the usability of kernel extensions in terms of programming experience and maintainability. Rex builds upon language-based safety to provide safety properties desired by kernel extensions, along with a lightweight extralingual runtime for properties that are unsuitable for static analysis, including safe exception handling, stack safety, and termination. With Rex, kernel extensions are written in safe Rust and interact with the kernel via a safe interface provided by Rex's kernel crate. No separate static verification is needed. Rex addresses usability issues of eBPF kernel extensions without compromising performance.},
+    booktitle = {Proceedings of the 2025 USENIX Conference on Usenix Annual Technical Conference},
+    articleno = {20},
+    numpages = {18},
+    location = {Boston, MA, USA},
+    series = {USENIX ATC '25},
+    selected = {false},
+    pdf = {https://www.usenix.org/conference/atc25/presentation/jia}
+}
+
+@inproceedings{10.1145/3748355.3748362,
+    author = {Craun, Milo and Williams, Dan},
+    title = {Pairwise BPF Programs Should Be Optimized Together},
+    year = {2025},
+    isbn = {9798400720840},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3748355.3748362},
+    doi = {10.1145/3748355.3748362},
+    abstract = {BPF programs are extensively used for tracing and observability in production systems where performance overheads matter. Many individual BPF programs do not incur serious performance degrading overhead on their own, but increasingly more than a single BPF program is used to understand production system performance. BPF deployments have begun to look more like distributed applications; however, this is a mismatch with the underlying Linux kernel, potentially leading to high overhead cost. In particular, we identify that many BPF programs follow a pattern based on pairwise program deployment where entry and exit probes will be attached to measure a single quantity. We find that the pairwise BPF program pattern results in unnecessary overheads. We identify three optimizations---BPF program inlining, context aware optimization, and intermediate state internalization---that apply to pairwise BPF programs. We show that applying these optimizations to an example pairwise BPF program can reduce overhead on random read throughput from 28.13\% to 8.98\% and on random write throughput from 26.97\% to 8.60\%. We then examine some key design questions that arise when seeking to integrate optimizations with the existing BPF system.},
+    booktitle = {Proceedings of the 3rd Workshop on EBPF and Kernel Extensions},
+    pages = {22–27},
+    numpages = {6},
+    keywords = {dynamic tracing, eBPF, observability, pairwise BPF},
+    location = {Coimbra, Portugal},
+    series = {eBPF '25},
+    selected = {true},
+    pdf = {https://doi.org/10.1145/3748355.3748362}
+}
