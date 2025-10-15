@@ -65,9 +65,27 @@
     {
       "name": "Enabling eBPF on Embedded Systems Through Decoupled Verification",
       "publisher": "Proceedings of the 1st Workshop on EBPF and Kernel Extensions",
-      "releaseDate": "2023-09-10",
+      "releaseDate": "2023",
       "url": "https://dl.acm.org/doi/10.1145/3609021.3609299",
       "summary": "We can enable the usage of eBPF on resource constrained embedded devices by moving eBPF verification outside of the kernel and away from load time."
+    },
+    {
+      "name": "Pairwise BPF Programs Should Be Optimized Together",
+      "publisher": "Proceedings of the 3rd Workshop on EBPF and Kernel Extensions",
+      "releaseDate": "2025",
+      "url": "https://doi.org/10.1145/3748355.3748362"
+    },
+    {
+      "name": "Rex: closing the language-verifier gap with safe and usable kernel extensions",
+      "publisher": "Proceedings of the 2025 USENIX Conference on Usenix Annual Technical Conference",
+      "releaseDate": "2025",
+      "url": "https://www.usenix.org/conference/atc25/presentation/jia"
+    },
+    {
+        "name": "Towards Safe Agentic AI Performance Engineering",
+        "publisher": "In Proceedings of the 4th Workshop on Practical Adoption Challenges of ML for Systems",
+        "releaseDate": "2025",
+        "url": "https://doi.org/10.1145/3766882.3767179"
     }
   ],
   "skills": [
